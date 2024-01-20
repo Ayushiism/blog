@@ -1,0 +1,199 @@
+.blogPosts{
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: 400;
+    color: red;
+}
+.head{
+    margin-top: 1rem;
+}
+.container{
+    margin-bottom: 4rem;
+}
+ 
+.heading{
+    font-size: x-large;
+}
+.paraHeading{
+    font-size: x-large;
+    color:rgb(79, 79, 230);
+    margin-top: 2rem;
+}
+.buttonClass{
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  display: flex ;
+}
+.discription{
+ 
+    margin-top: 1rem;
+}
+.sub-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+ 
+/* .linkdin{
+    font-weight: 900;
+    width: 10rem;
+    height: 4rem;
+    margin-right: 5rem;
+    border: none;
+    color: white;
+    background-color: #0077b5;
+ 
+    text-decoration: none;
+    text-transform: uppercase; */
+/* } */
+.img{
+    /* margin-right: auto; */
+    /* margin-left: 7rem; */
+     width: 100%;
+    height: auto;
+}
+.parag{
+    margin-top: 2rem;
+}
+.linkedin{
+  width: 10rem;
+  height: 4rem;
+  margin-right: 2rem;
+  border: 1px solid rgb(55, 55, 169);
+  box-shadow: black;
+  border-radius: 50px;
+  background: rgb(55, 55, 169);
+}
+.linkedin:hover,
+.linkedin:active{
+    background-color: initial;
+    background-position: 0 0;
+    color: blue;
+}
+ 
+  .twitter:active {
+    opacity: .5;
+  }
+.twitter{
+    /* width: 40%; */
+    font-weight: 900;
+    width: 10rem;
+    height: 4rem;
+    margin-right: 2rem;
+    background: rgb(77, 184, 223);
+    border: 1px solid rgb(9, 118, 158);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    /* color: #FFFFFF; */
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    /* margin-right: 20%; */
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+   
+  }
+ 
+  .twitter:hover,
+  .twitter:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: blue;
+  }
+ 
+  .twitter:active {
+    opacity: .5;
+  }
+.medium {
+    width: 10rem;
+    height: 4rem;
+    margin-right: 5rem;
+    background: black;
+    border: 1px solid black;
+    /* background: #D05270;
+    border: 1px solid #D05270; */
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    margin-right: 20%;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+   
+  }
+ 
+  .medium:hover,
+  .medium:active {
+    background-color:#FFFFFF;
+    background-position: 0 0;
+    color: black;
+    /* color: #D05270; */
+  }
+ 
+  .medium:active {
+    opacity: .5;
+  }
+ 
+  .box{
+    padding-left: 10rem;
+    /* margin-right: 200rem; */
+  }
+ 
+  .logoPic{
+    margin-right: 20rem;
+    width: 12em;
+    height: 20em;
+    /* background-position: 50%; */
+    /* margin-bottom: 20em; */
+    transform: rotate(-90deg);
+    border-radius: 20px;
+    background: linear-gradient(0deg, #D05270 0%, #D05270 100%), #3D62E5;
+ 
+  }
+  .logoPic > img{
+    /* margin-bottom: 200em; */
+    background-position: 25%;
+    width: 18.75em;
+    height: 25em;
+    transform: rotate(90deg);
+  }
+/*  
+.pink_box{
+  margin-right: 20rem;
+  width: 10.5em;
+  height: 20em;
+  transform: rotate(-90deg);
+  border-radius: 20px;
+  background: linear-gradient(0deg, #D05270 0%, #D05270 100%), #3D62E5;
+}
+ 
+.pink_box > img{
+  width: 18.75em;
+  height: 25em;
+  transform: rotate(90deg);
+} */

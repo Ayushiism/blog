@@ -1,14 +1,17 @@
 .blogPosts{
-    font-size: 2rem;
-    margin-top: 3rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0;
     color: red;
+    padding-bottom: 1px;
    
 }
-a { color: inherit; } 
+/* a { color: inherit; }  */
 .head{
-    margin-top: 1rem;
-    font-size: x-large;   
+    margin-top: 0px;
+    font-size: 3rem;
+    font-weight: 400;   
 }
 .container{
     margin-bottom: 4rem;
@@ -22,7 +25,7 @@ a { color: inherit; }
 .sub-container{
     margin-bottom: 4rem;
 }
-.heading{
+.head{
     font-size: x-large;
 }
 
@@ -33,28 +36,31 @@ a { color: inherit; }
    
 }
 .wrapper{
-    display: flex;
+  display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 5rem;
-    width: 8rem;
-    padding-left: 1rem;
+    height: 4rem;
+    width: 100%;
+   padding-left: 7px;
+   
 }
 .social-icon{
-  display: flex ;
+   display: flex ;
   justify-content:space-around;
-  align-content: center;
+  /*align-content: center; */
+ 
+  width: 100%;
+  margin: 0 auto ;
   /* background-color: #FFFFFF;
   z-index: 100; */
 }
 .button{
+    width: auto;
     display: flex ;
-    justify-content: center;
-    align-content: center;
 }
 .social-logo{
     height: 60%;
-    width: 50%;
+    /* width: 50%; */
 }
 .discription{
     margin-bottom: 3rem;
@@ -82,21 +88,23 @@ a { color: inherit; }
 
 .linkedin{
     /* font-weight: 900; */
-    width: 12rem;
-    height: 5rem;
-    padding-right: 2rem;
-    background:  #0077b5;
-    border: 1px solid rgb(36, 47, 126);
+    width: 40%;
+    /* height: 100%; */
+    margin: auto;
+    background: rgb(55, 55, 169);
+    border: solid rgb(55, 55, 169) ;
     border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     color: #FFFFFF;
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
     font-size: 16px;
+    font-weight: 800;
+    padding-left: 0;
+    padding-right: 20px;
 }
 .linkedin:hover,
 .linkedin:active{
     background-color: initial;
-    background-position: 0 0;
+   
     color:  #0077b5;
 }
  
@@ -106,7 +114,7 @@ a { color: inherit; }
 .twitter{
     /* width: 40%; */
     /* font-weight: 900; */
-    width: 12rem;
+    /* width: 12rem;
     height: 5rem;
     padding-right: 2rem;
     background:  rgb(29, 161, 242);
@@ -115,9 +123,23 @@ a { color: inherit; }
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     color: #FFFFFF;
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    font-size: 16px;
+    font-size: 16px; */
     /* font-weight: 800;
     padding: 12px 14px; */
+
+    width: 40%;
+    /* height: 100%; */
+    margin: auto 1% auto;
+    background: rgb(77, 184, 223);
+    border: solid rgb(77, 184, 223);
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 0;
+    padding-right: 20px;
+
   }
  
   .twitter:hover,
@@ -132,7 +154,7 @@ a { color: inherit; }
   }
 .medium {
     /* font-weight: 900; */
-    width: 12rem;
+    /* width: 12rem;
     height: 5rem;
     padding-right: 2rem;
     background-color: black;
@@ -141,9 +163,22 @@ a { color: inherit; }
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     color: #FFFFFF;
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    font-size: 16px;
+    font-size: 16px; */
     /* font-weight: 800; */
     /* padding: 12px 14px; */
+    
+    width: 40%;
+    /* height: 100%; */
+    margin: auto 1% auto;
+    background: black;
+    border: solid black;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 0;
+    padding-right: 20px;
    
   }
  
@@ -158,14 +193,14 @@ a { color: inherit; }
   .medium:active {
     opacity: .5;
   }
-  /* @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .box {
         display: none !important;
     }
     .contentcontain{
       width: 170% !important;
   }
-} */
+}
   .box{
     /* margin-right: 200rem; */
     /* border: solid black; */
@@ -207,7 +242,20 @@ a { color: inherit; }
   transform: rotate(90deg);
 } */
 
-/* .button{
-  /* border: solid black; */
-  /* margin: 10% auto; */
-/* }  */
+.buttonlink{
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1024px) {
+  .buttonlink {
+      display: none !important;
+  }
+  .wrapper{
+    align-items: center !important;
+  }
+}
+.twitterlink:hover{
+  color: #0077b5;
+}
+

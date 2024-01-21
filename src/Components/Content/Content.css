@@ -5,40 +5,59 @@
     color: red;
    
 }
+a { color: inherit; } 
 .head{
     margin-top: 1rem;
-    font-size: x-large;
-    
+    font-size: x-large;   
 }
 .container{
     margin-bottom: 4rem;
     /* border: solid black; */
 }
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .head {
       width: 100% !important;
   }
- 
-}
- 
-/* .bloghead{
-   
-    border: solid black;
 } */
+.sub-container{
+    margin-bottom: 4rem;
+}
+.heading{
+    font-size: x-large;
+}
+
 .paraHeading{
     font-size: x-large;
     color:rgb(79, 79, 230);
     margin-top: 2rem;
    
 }
-.buttonClass{
-  /* padding-top: 3rem;
-  padding-bottom: 7rem; */
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5rem;
+    width: 8rem;
+    padding-left: 1rem;
+}
+.social-icon{
   display: flex ;
-  /* border: solid yellow; */
+  justify-content:space-around;
+  align-content: center;
+  /* background-color: #FFFFFF;
+  z-index: 100; */
+}
+.button{
+    display: flex ;
+    justify-content: center;
+    align-content: center;
+}
+.social-logo{
+    height: 60%;
+    width: 50%;
 }
 .discription{
- 
+    margin-bottom: 3rem;
     margin-top: 1rem;
    
 }
@@ -48,18 +67,7 @@
     /* border: solid black; */
 }
  
-/* .linkdin{
-    font-weight: 900;
-    width: 10rem;
-    height: 4rem;
-    margin-right: 5rem;
-    border: none;
-    color: white;
-    background-color: #0077b5;
- 
-    text-decoration: none;
-    text-transform: uppercase; */
-/* } */
+
 .img{
     /* margin-right: auto; */
     /* margin-left: 7rem; */
@@ -71,86 +79,93 @@
     margin-top: 2rem;
     /* border: solid black; */
 }
-.linkedin{
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  background: rgb(55, 55, 169);
-  border: solid rgb(55, 55, 169) ;
-  border-radius: 5px;
-  color: #FFFFFF;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  padding: 12px 14px;
-   
-   
 
+.linkedin{
+    /* font-weight: 900; */
+    width: 12rem;
+    height: 5rem;
+    padding-right: 2rem;
+    background:  #0077b5;
+    border: 1px solid rgb(36, 47, 126);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    color: #FFFFFF;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
 }
 .linkedin:hover,
 .linkedin:active{
     background-color: initial;
     background-position: 0 0;
-    color: blue;
+    color:  #0077b5;
 }
  
   .twitter:active {
     opacity: .5;
   }
 .twitter{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background: rgb(77, 184, 223);
-    border: solid rgb(77, 184, 223);
-    border-radius: 5px;
+    /* width: 40%; */
+    /* font-weight: 900; */
+    width: 12rem;
+    height: 5rem;
+    padding-right: 2rem;
+    background:  rgb(29, 161, 242);
+    border: 1px solid rgb(9, 118, 158);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     color: #FFFFFF;
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
     font-size: 16px;
-    font-weight: 800;
-    padding: 12px 14px;
+    /* font-weight: 800;
+    padding: 12px 14px; */
   }
  
   .twitter:hover,
   .twitter:active {
     background-color: initial;
     background-position: 0 0;
-    color: blue;
+    color:  rgb(29, 161, 242);
   }
  
   .twitter:active {
     opacity: .5;
   }
 .medium {
-  width: 100%;
-    height: 100%;
-    margin: auto;
-    background: black;
-    border: solid black;
-    border-radius: 5px;
+    /* font-weight: 900; */
+    width: 12rem;
+    height: 5rem;
+    padding-right: 2rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     color: #FFFFFF;
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
     font-size: 16px;
-    font-weight: 800;
-    padding: 12px 14px;
+    /* font-weight: 800; */
+    /* padding: 12px 14px; */
    
   }
  
-  .medium:hover{
-    color: ;
+  .medium:hover, .medium:active{
+    background-color:white;
+    background-position: 0 0;
+    color: black;
+    /* color: #D05270; */
   }
+ 
  
   .medium:active {
     opacity: .5;
   }
-  @media screen and (max-width: 1024px) {
+  /* @media screen and (max-width: 1024px) {
     .box {
         display: none !important;
     }
     .contentcontain{
       width: 170% !important;
   }
-}
+} */
   .box{
     /* margin-right: 200rem; */
     /* border: solid black; */
@@ -192,7 +207,7 @@
   transform: rotate(90deg);
 } */
 
-.button{
+/* .button{
   /* border: solid black; */
-  margin: 10% auto;
-}
+  /* margin: 10% auto; */
+/* }  */

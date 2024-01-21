@@ -5,9 +5,9 @@ import "../Pages/Pages.css"
 
 const Pages = () => {
   return (
-    <div>
+    <div className='page'>
         <div className='appbar'>
-            {/* <Appbar/> */}
+            <Appbar/>
         </div>
         <div className='body'>
             <Content/>
